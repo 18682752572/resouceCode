@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:from_attrs="http://schemas.android.com/apk/res/com.design.summerslam.effectapplication"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <com.design.summerslam.effectapplication.widget.CircleProgressBarView
+        android:id="@+id/tasks_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        from_attrs:radius="100dip"
+        from_attrs:strokeWidth="20dip"
+        from_attrs:circleColor="@color/circle_color"
+        from_attrs:ringColor="@color/ring_color" />
+
+</LinearLayout>
